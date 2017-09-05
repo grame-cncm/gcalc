@@ -1,0 +1,13 @@
+s/term\*/P<term>/g 
+s/var\*/P<var>/g
+s/val\*/P<val>/g
+s/nra\*/P<nra>/g
+s/sol\*/P<sol>/g
+s/lproj\*/P<lproj>/g
+s/rproj\*/P<rproj>/g
+s/cons\*/P<cons>/g
+s/abstr\*/P<abstr>/g
+
+s/vappl\*/P<vappl>/g
+s/appl\*/P<appl>/g
+s/atm\*/P<atm>/g
