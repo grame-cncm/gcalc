@@ -27,12 +27,10 @@ void IconWidget::checkPixmapUpToDate()
 {
 	if (fPixmap==0 || fPixmap->size() != size()) {
 		if (fPixmap != 0) { delete fPixmap; }
-		
 		fPixmap = new QPixmap(size());
 		fPixmap->fill(QColor(0,0,0,0));
-		
 		QPainter painter(fPixmap);
-		painter.setPen(palette().foreground().color());
+		painter.setPen(palette().windowText().color());
 		painter.drawRect(0,0,width()-1, height()-1);
 		Represent(painter, fTerm, min(width(), height()), true);
 	}

@@ -88,8 +88,8 @@ void cube::Render(QPainter& dst, const QColor& color)
 {	
 
 	QColor p1 = color;
-	QColor p2 = color.dark(kShadow1);
-	QColor p3 = color.dark(kShadow2);
+	QColor p2 = color.darker(kShadow1);
+	QColor p3 = color.darker(kShadow2);
 	
 	{	// draw right face
 		QPainterPath rightface;
