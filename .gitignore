@@ -35,3 +35,6 @@
 .DS_Store
 *~
 
+
+# Builds of the tools/ programs
+build-tools/
